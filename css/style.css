@@ -225,3 +225,14 @@ main .gen-section-row {
 .main-container.lower-padding {
     padding: 1rem 0;
 }
+/* end V section */
+
+/* VI section */
+.higher-padding {
+    padding: 6rem 0;
+}
+
+.faq {
+    padding: 1.5rem 0;
+}
+/* end VI section */
