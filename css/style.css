@@ -135,7 +135,7 @@ main {
     display: inline-block;
 }
 
-main .first-section-row {
+main .gen-section-row {
     display: flex;
     height: 100%;
     width: 100%;
@@ -143,7 +143,7 @@ main .first-section-row {
     flex-wrap: wrap;
 }
 
-.first-section-row .first-section-col {
+.gen-section-row .first-section-col {
     width: calc((100% - 60px) / 3);
     height: 800px;
     border: 1px dashed palegoldenrod;
@@ -180,3 +180,11 @@ main .first-section-row {
     width: 40%;
 }
 /* end II section */
+
+/* III section */
+.third-section-col {
+    width: calc((100% - 60px) / 3);
+    height: 350px;
+    border: 1px dashed palegoldenrod;
+}
+/* end III section */
