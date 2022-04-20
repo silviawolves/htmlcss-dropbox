@@ -3,3 +3,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: mediumaquamarine;
+}
+
+nav .nav-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-col {
+    min-width: 30%;
+    height: 100%;
+    border: 1px dashed forestgreen;
+    display: flex;
+    align-items: center;
+}
+
+.col-right {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.nav-col .nav-logo {
+    padding: 0rem .9rem;
+}
+
+.nav-logo img {
+    height: 19px;
+    vertical-align: middle;
+}
+
+.nav-col .nav-button {
+    background-color: aquamarine;
+    font-size: .75rem;
+    padding: .3rem 1rem;
+    border: 1px dashed darkcyan;
+    text-align: center;
+}
+
+.nav-button.blue {
+    background-color: #0061ff;
+    color: white;
+    padding: .3rem .7rem;
+}
