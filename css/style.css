@@ -6,17 +6,17 @@
 
 body {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000;
 }
 
 .big-container {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     max-width: 900px;
     min-height: 80px;
     max-height: 550px;
     margin: 0 auto;
-    border: 1px dashed palevioletred;
+    /* border: 1px dashed palevioletred; */
     padding: 2rem 0;
 }
 
@@ -28,6 +28,11 @@ body {
     margin: 0 auto;
     border: 1px dashed palevioletred;
     padding: 2.5rem 0;
+}
+
+h1 {
+    font-size: 3.7rem;
+    line-height: 80px;
 }
 
 /* navbar */
@@ -73,7 +78,7 @@ nav .nav-col {
 }
 
 .nav-col .nav-button {
-    color: dimgrey;
+    color: rgb(68, 68, 68);
     background-color: transparent;
     border: none;
     font-size: .8rem;
@@ -83,7 +88,7 @@ nav .nav-col {
 
 .nav-button.blue {
     background-color: #0061ff;
-    color: #fff;
+    color: #c4ddf1;
     padding: .35rem .7rem;
 }
 /* end navbar */
@@ -92,8 +97,8 @@ nav .nav-col {
 header {
     background-color: #B4D0E7;
     width: 100%;
-    min-height: 600px;
-    padding-top: 3.75rem;
+    min-height: 620px;
+    padding-top: 3rem;
     margin-bottom: 50px;
 }
 
@@ -103,8 +108,7 @@ header .big-container {
 }
 
 .header-title {
-    border: 1px dashed black;
-    height: 130px;
+    padding-bottom: 40px;
 }
 
 .big-container .header-row {
@@ -113,13 +117,36 @@ header .big-container {
 }
 
 .big-container .header-col {
-    width: 40%;
+    width: 30%;
     height: calc(550px - 130px - 2rem);
-    border: 1px dashed teal;
+}
+
+.header-col p {
+    color: rgb(68, 68, 68);
+    font-size: .78rem;
+    padding-bottom: 25px;
+    line-height: 17px;
 }
 
 .header-col.header-col-right {
     flex-grow: 1;
+}
+
+.header-col-right img {
+    height: 350px;
+}
+
+.header-button {
+    background-color: #0061ff;
+    color: #c4ddf1;
+    border: none;
+    padding: .6rem .8rem;
+    margin-bottom: 20px;
+}
+
+.fa-solid.fa-arrow-down {
+    font-size: 40px;
+    padding-top: 20px;
 }
 /* end header */
 
