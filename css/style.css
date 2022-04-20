@@ -22,7 +22,7 @@ body {
 .main-container {
     background-color: cadetblue;
     max-width: 800px;
-    min-height: 250px;
+    min-height: 200px;
     max-height: 1500px;
     margin: 0 auto;
     border: 1px dashed palevioletred;
@@ -177,7 +177,7 @@ main .gen-section-row {
     max-height: 400px;
 }
 
-.second-section-col.jumbo {
+.second-section-col.jumbo, .fifth-section-col.jumbo {
     width: 40%;
 }
 /* end II section */
@@ -193,3 +193,35 @@ main .gen-section-row {
 /* IV section */
 
 /* end IV section */
+
+/* sezione brutta */
+.malvagia {
+    background-color: tomato;
+    width: 100%;
+    height: 400px;
+}
+/* end sezione brutta */
+
+/* V section */
+.lightblue-section {
+    background-color: #B4D0E7;
+    width: 100%;
+}
+
+.fifth-section-row {
+    display: flex;
+    height: 160px;
+    width: 100%;
+    gap: 30px;
+}
+
+.fifth-section-col {
+    width: 60%;
+    border: 1px dashed palegoldenrod;
+    min-height: 160px;
+    padding: 2rem 0;
+}
+
+.main-container.lower-padding {
+    padding: 1rem 0;
+}
