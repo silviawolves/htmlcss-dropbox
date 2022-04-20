@@ -22,7 +22,7 @@ body {
 .main-container {
     background-color: cadetblue;
     max-width: 800px;
-    min-height: 300px;
+    min-height: 250px;
     max-height: 1500px;
     margin: 0 auto;
     border: 1px dashed palevioletred;
@@ -173,7 +173,8 @@ main .gen-section-row {
 .second-section-col {
     width: 60%;
     border: 1px dashed palegoldenrod;
-    height: 400px;
+    min-height: 200px;
+    max-height: 400px;
 }
 
 .second-section-col.jumbo {
@@ -188,3 +189,7 @@ main .gen-section-row {
     border: 1px dashed palegoldenrod;
 }
 /* end III section */
+
+/* IV section */
+
+/* end IV section */
