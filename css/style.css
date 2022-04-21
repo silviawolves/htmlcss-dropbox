@@ -386,7 +386,7 @@ main .gen-section-row {
 /* end IV section */
 
 /* V sezione design.it */
-.designit {
+.designit-section {
     background-color: #F5F5F5;
     width: 100%;
     height: 480px;
@@ -396,7 +396,52 @@ main .gen-section-row {
 .designit-container {
     height: 100%;
     width: calc(100% / 3);
-    border: 1px dashed tomato;
+}
+
+.d-row {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.d-col {
+    width: calc(100% / 2);
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.designit {
+    background-color: #A3D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1D1D;
+}
+
+.wbr {
+    background-color: #d5001f;
+}
+
+.hearst {
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+.clear {
+    background-color: #ffd830;
 }
 
 .d-content {
