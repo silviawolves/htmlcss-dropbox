@@ -372,7 +372,20 @@ main .gen-section-row {
 /* end III section */
 
 /* IV section */
+.section-row.double-padding {
+    padding: 2rem 0;
+}
+.section-col.small.no-padding {
+    padding: 0;
+}
 
+.section-title.more-padding {
+    padding: 1.5rem 0 3rem 0;
+}
+
+.section-col a {
+    font-size: .8rem;
+}
 /* end IV section */
 
 /* sezione brutta */
