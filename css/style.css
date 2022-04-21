@@ -188,13 +188,12 @@ main .gen-section-row {
     display: flex;
     height: 100%;
     width: 100%;
-    gap: 40px;
+    gap: 45px;
     flex-wrap: wrap;
 }
 
 .gen-section-row .first-section-col {
-    width: calc((100% - 80px) / 3);
-    height: 750px;
+    width: calc((100% - 90px) / 3);
 }
 
 .jumbo-first-section-col {
@@ -225,8 +224,7 @@ main .gen-section-row {
 }
 
 .card-body {
-    padding: 2rem 1.5rem;
-    height: 100%;
+    padding: 2rem 1.6rem 0rem 1.6rem;
 }
 
 .card-body h3 {
@@ -247,11 +245,11 @@ main .gen-section-row {
 }
 
 .card-body .list {
-    padding-bottom: 35px;
+    padding-bottom: 33px;
 }
 
 .list-items {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .trial {
@@ -267,6 +265,21 @@ main .gen-section-row {
     border: none;
     padding: .6rem 2rem;
     font-size: .7rem;
+    text-align: center;
+}
+
+.card-body.jumbo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.jumbo1 {
+    width: 60%;
+}
+
+.jumbo1 p {
+    padding-top: 25px;
 }
 
 .division {
@@ -280,10 +293,13 @@ main .gen-section-row {
     padding-bottom: 1.5rem;
 }
 
+.fa-solid.fa-share-nodes.fa-pull-left {
+    height: 30px;
+}
+
 .fa-solid.fa-check.fa-pull-left {
     color: #0061ff;
 }
-
 /* end I section */
 
 /* II section */
