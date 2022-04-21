@@ -339,7 +339,7 @@ main .gen-section-row {
     padding: .5rem .7rem;
 }
 
-.section-col.small, .fifth-section-col.jumbo {
+.section-col.small {
     width: 40%;
     padding: 2.5rem 3.5rem 2rem 0.5rem;
 }
@@ -372,9 +372,10 @@ main .gen-section-row {
 /* end III section */
 
 /* IV section */
-.section-row.double-padding {
+.double-padding {
     padding: 2rem 0;
 }
+
 .section-col.small.no-padding {
     padding: 0;
 }
@@ -396,32 +397,48 @@ main .gen-section-row {
 }
 /* end sezione brutta */
 
-/* V section */
+/* VI section */
 .lightblue-section {
     background-color: #B4D0E7;
     width: 100%;
 }
 
-.fifth-section-row {
-    display: flex;
-    height: 160px;
-    width: 100%;
-    gap: 30px;
-}
-
-.fifth-section-col {
-    width: 60%;
-    border: 1px dashed palegoldenrod;
-    min-height: 160px;
-    padding: 2rem 0;
+.section-col .section-title.purple {
+    color: #68152C;
+    padding: 0;
 }
 
 .main-container.lower-padding {
-    padding: 1rem 0;
+    padding: 1.2rem 0;
 }
-/* end V section */
 
-/* VI section */
+.center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.white-btn {
+    background-color: white;
+    color: rgb(68, 68, 68);
+    border: none;
+    padding: .6rem 2.3rem;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.section-col.more-padding, .section-col.small.more-padding {
+    padding: 4rem 0;
+}
+
+.section-row.more-gap {
+    gap: 40px;
+}
+/* end VI section */
+
+/* F.A.Q. section */
 .higher-padding {
     padding: 6rem 0;
 }
@@ -429,7 +446,7 @@ main .gen-section-row {
 .faq {
     padding: 1.5rem 0;
 }
-/* end VI section */
+/* end F.A.Q. section */
 
 /* footer */
 footer {
