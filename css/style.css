@@ -11,12 +11,9 @@ body {
 }
 
 .big-container {
-    background-color: burlywood;
     max-width: 900px;
-    min-height: 80px;
     max-height: 550px;
     margin: 0 auto;
-    border: 1px dashed palevioletred;
     padding: 2rem 0;
 }
 
@@ -466,12 +463,13 @@ footer {
     background-color: #000;
     width: 100%;
     min-height: 400px;
+    color: lightgray;
 }
 
 .top-footer {
-    min-height: 250px;
     display: flex;
     align-items: center;
+    padding: 3rem 0;
 }
 
 .footer-row {
@@ -485,6 +483,38 @@ footer {
 .footer-col {
     width: calc((100% -20px) / 5);
     height: 100%;
-    border: 1px dashed black;
+}
+
+.footer-div {
+    width: 100px;
+    border-top: 0.5px solid lightgray;
+}
+
+.big-container.no-padding {
+    padding: 0px;
+    height: 1px;
+}
+
+.footer-credits {
+    padding: 5px;
+}
+
+.language {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+}
+
+.footer-col h3 {
+    color: white;
+    padding-bottom: 25px;
+}
+
+ul li {
+    list-style: none;
+    font-size: .75rem;
+    padding-bottom: .7rem;
 }
 /* end footer */
