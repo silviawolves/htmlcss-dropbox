@@ -310,9 +310,8 @@ main .gen-section-row {
     gap: 30px;
 }
 
-.ssection-col {
+.section-col {
     width: 60%;
-    border: 1px dashed palegoldenrod;
     min-height: 200px;
     max-height: 400px;
 }
@@ -321,23 +320,19 @@ main .gen-section-row {
     height: 400px;
 }
 
-.col-text {
-    padding: 2.5rem 3.5rem 2rem 0.5rem;
-}
-
-.col-text h3 {
+.partner-text h3 {
     line-height: 25px;
     padding-bottom: 10px;
 }
 
-.col-text p {
+.inside-p {
     color: rgb(68, 68, 68);
     font-size: .8rem;
     line-height: 16px;
     padding-bottom: 25px;
 }
 
-.col-text input[type=button] {
+.partner-text input[type=button] {
     background-color: transparent;
     color: rgb(68, 68, 68);
     border: 1px solid black;
@@ -346,15 +341,34 @@ main .gen-section-row {
 
 .section-col.small, .fifth-section-col.jumbo {
     width: 40%;
+    padding: 2.5rem 3.5rem 2rem 0.5rem;
 }
 /* end II section */
 
 /* III section */
 .third-section-col {
-    width: calc((100% - 90px) / 3);
-    height: 350px;
-    border: 1px dashed palegoldenrod;
+    width: calc((100% - 30px) / 3);
+    height: 360px;
 }
+
+.gen-section-row.low-gap {
+    gap: 15px;
+}
+
+.card-operation {
+    height: 100%;
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+.card-operation img {
+    width: 100%;
+}
+
+.col-text {
+    padding: 0;
+}
+
 /* end III section */
 
 /* IV section */
