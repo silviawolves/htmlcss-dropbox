@@ -45,6 +45,7 @@ nav {
     background-color: white;
     position: fixed;
     z-index: 1;
+    box-shadow: 0px 1px 10px -5px grey;
 }
 
 nav .nav-row {
@@ -193,7 +194,7 @@ main .gen-section-row {
 
 .gen-section-row .first-section-col {
     width: calc((100% - 80px) / 3);
-    height: 800px;
+    height: 750px;
 }
 
 .jumbo-first-section-col {
@@ -204,6 +205,8 @@ main .gen-section-row {
 .card {
     height: 100%;
     border: 1px solid lightgray;
+    font-size: .7rem;
+    color: rgb(68, 68, 68);
 }
 
 .card-header {
@@ -215,9 +218,72 @@ main .gen-section-row {
     font-size: .7rem;
 }
 
-.card-header span {
-    color: rgb(68, 68, 68);
+.card i {
+    color: black;
+    height: 20px;
+    padding-right: 3px;
 }
+
+.card-body {
+    padding: 2rem 1.5rem;
+    height: 100%;
+}
+
+.card-body h3 {
+    padding-bottom: 20px;
+    font-size: 1.17rem;
+    color: #000;
+}
+
+.card-body .subtitle {
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.card-body .payment {
+    color: rgb(149, 149, 149);
+    padding-bottom: 40px;
+}
+
+.card-body .list {
+    padding-bottom: 35px;
+}
+
+.list-items {
+    padding-bottom: 10px;
+}
+
+.trial {
+    width: 100%;
+    padding-bottom: 23px;
+    margin: 0 auto;
+}
+
+.trial-button {
+    background-color: #0061ff;
+    width: 100%;
+    color: #c4ddf1;
+    border: none;
+    padding: .6rem 2rem;
+    font-size: .7rem;
+}
+
+.division {
+    padding-top: 30px;
+    width: 40px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+
+.subtitle.padding-plus {
+    padding-bottom: 1.5rem;
+}
+
+.fa-solid.fa-check.fa-pull-left {
+    color: #0061ff;
+}
+
 /* end I section */
 
 /* II section */
