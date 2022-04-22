@@ -83,6 +83,10 @@ nav .nav-col {
     gap: 5px;
 }
 
+.btn a {
+    text-decoration: none;
+}
+
 .nav-col .nav-button {
     color: rgb(68, 68, 68);
     background-color: transparent;
