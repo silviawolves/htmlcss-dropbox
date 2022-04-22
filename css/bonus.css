@@ -87,6 +87,10 @@
     width: 120px;
 }
 
+.d-content {
+    overflow: hidden;
+}
+
 .designit {
     background-color: #A3D39B;
     border: none;
@@ -122,4 +126,26 @@
 
 .square.clear:hover {
     border: 10px solid #fce580;
+}
+
+.designit-container {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.arizona, .topps, .clear {
+    width: 40%;
+}
+
+.uf-img {
+    width: 120px;
+}
+
+.d-content .hearst-content {
+    width: 70%;
+}
+
+.d-content .clear-content, .d-content .topps-content {
+    width: 40%;
 }
