@@ -11,7 +11,6 @@
 
 .nav-col .nav-button {
     padding: 1.4rem 0.75rem;
-    height: calc(100% - 1px);
 }
 
 .nav-button:hover {
@@ -42,4 +41,40 @@
 
 .border-blue {
     border: 4px solid #0061ff;
+}
+
+.panel {
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.panel p {
+    padding-top: 20px;
+    width: 100%;
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.fa-solid.fa-arrow-down, .fa-solid.fa-angle-up {
+    font-size: .6rem;
+    float: right;
+    padding-right: 40px;
+}
+
+.fa-solid.fa-angle-up {
+    display: none;
+}
+
+.faq:hover .panel {
+    display: block;
+}
+
+.faq:hover .fa-solid.fa-angle-down {
+    display: none;
+}
+
+.faq:hover .fa-solid.fa-angle-up {
+    display: block;
 }
