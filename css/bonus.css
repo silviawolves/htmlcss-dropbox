@@ -1,0 +1,7 @@
+.nav-button.blue:hover, .header-button:hover, .trial-button:hover {
+    background-color: #3B85FF;
+}
+
+.partner-text input[type=button]:hover, .white-btn:hover {
+    background-color: #F5F5F5;
+}
