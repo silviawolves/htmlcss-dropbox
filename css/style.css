@@ -285,8 +285,6 @@ ul.list li {
     padding-bottom: 1.5rem;
 }
 
-
-
 .fa-solid.fa-check.fa-pull-left {
     color: #0061ff;
 }
@@ -392,6 +390,10 @@ ul.list li {
 
 .d-row {
     display: flex;
+}
+
+.d-col {
+    width: 100%;
 }
 
 .square-container {
