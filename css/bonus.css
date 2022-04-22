@@ -35,6 +35,7 @@
     margin-right: 5px;
 }
 
+/* F.A.Q. */
 .shift-right {
     margin-left: 40px;
 }
@@ -77,4 +78,48 @@
 
 .faq:hover .fa-solid.fa-angle-up {
     display: block;
+}
+/* end F.A.Q. */
+
+/* logo block */
+.invert-resize {
+    filter: invert(1);
+    width: 120px;
+}
+
+.designit {
+    background-color: #A3D39B;
+    border: none;
+}
+
+.square.designit:hover {
+    border: 10px solid #D1E9CD;
+}
+
+.square.asu:hover {
+    border: 10px solid #880c3e;
+}
+
+.square.uf:hover {
+    border: 10px solid #02b7ff;
+}
+
+.square.topps:hover {
+    border: 10px solid #f75d5d;
+}
+
+.square.wbr:hover {
+    border: 10px solid #fa223f;
+}
+
+.square.hearst:hover {
+    border: 10px solid #d5e4f1;
+}
+
+.square.lonely:hover {
+    border: 10px solid #364da8;
+}
+
+.square.clear:hover {
+    border: 10px solid #fce580;
 }
