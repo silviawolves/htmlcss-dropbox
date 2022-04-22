@@ -1,5 +1,21 @@
-.nav-button.blue:hover, .header-button:hover, .trial-button:hover {
+.nav-button-blue {
+    background-color: #0061ff;
+    color: #c4ddf1;
+    padding: .35rem .7rem;
+    border: none;
+}
+
+.nav-button-blue:hover, .header-button:hover, .trial-button:hover {
     background-color: #3B85FF;
+}
+
+.nav-col .nav-button {
+    padding: 1.4rem 0.75rem;
+    height: calc(100% - 1px);
+}
+
+.nav-button:hover {
+    border-bottom: 1px solid black;
 }
 
 .partner-text input[type=button]:hover, .white-btn:hover {
