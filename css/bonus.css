@@ -17,6 +17,12 @@
     border-bottom: 1px solid black;
 }
 
+.header-col .fa-solid.fa-arrow-down {
+    font-size: 40px;
+    padding-top: 20px;
+    float: left;
+}
+
 .partner-text input[type=button]:hover, .white-btn:hover {
     background-color: #F5F5F5;
 }
